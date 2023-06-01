@@ -4,7 +4,8 @@
   "info": {
     "singularName": "page",
     "pluralName": "pages",
-    "displayName": "page"
+    "displayName": "page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,10 +13,14 @@
   "pluginOptions": {},
   "attributes": {
     "titleEN": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "titleHK": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "unique": true
     },
     "contentEN": {
       "type": "richtext"
