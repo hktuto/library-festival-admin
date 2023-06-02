@@ -27,6 +27,17 @@
     },
     "contentHK": {
       "type": "richtext"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titleEN"
+    },
+    "feature": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
