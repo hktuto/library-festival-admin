@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pasts",
+  "info": {
+    "singularName": "past",
+    "pluralName": "pasts",
+    "displayName": "past"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titleEN": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "titleHK": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "titleEN",
+      "required": true
+    },
+    "contentEN": {
+      "type": "richtext"
+    },
+    "contentHK": {
+      "type": "richtext"
+    }
+  }
+}
