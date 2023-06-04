@@ -4,7 +4,8 @@
   "info": {
     "singularName": "past",
     "pluralName": "pasts",
-    "displayName": "past"
+    "displayName": "past",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -31,6 +32,16 @@
     },
     "contentHK": {
       "type": "richtext"
+    },
+    "feature": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
