@@ -34,14 +34,20 @@
       "type": "richtext"
     },
     "feature": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "programs.slides"
     }
   }
 }
