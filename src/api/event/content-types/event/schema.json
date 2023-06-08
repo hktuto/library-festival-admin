@@ -63,6 +63,12 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::catergory.catergory"
+    },
+    "remarkEN": {
+      "type": "string"
+    },
+    "remarkHK": {
+      "type": "string"
     }
   }
 }
