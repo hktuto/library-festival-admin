@@ -25,16 +25,16 @@
       "type": "string"
     },
     "registerEN": {
-      "type": "string"
+      "type": "text"
     },
     "registerHK": {
-      "type": "string"
+      "type": "text"
     },
     "periodEN": {
-      "type": "string"
+      "type": "text"
     },
     "periodHK": {
-      "type": "string"
+      "type": "text"
     },
     "liveURL": {
       "type": "string"
