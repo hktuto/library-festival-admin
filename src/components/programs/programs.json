@@ -47,6 +47,18 @@
     },
     "displayTimeHK": {
       "type": "string"
+    },
+    "targetEN": {
+      "type": "text"
+    },
+    "targetHK": {
+      "type": "text"
+    },
+    "quotaEN": {
+      "type": "text"
+    },
+    "quotaHK": {
+      "type": "text"
     }
   }
 }
