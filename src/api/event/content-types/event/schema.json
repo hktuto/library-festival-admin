@@ -13,10 +13,10 @@
   "pluginOptions": {},
   "attributes": {
     "titleEN": {
-      "type": "string"
+      "type": "text"
     },
     "titleHK": {
-      "type": "string"
+      "type": "text"
     },
     "photos": {
       "type": "media",
