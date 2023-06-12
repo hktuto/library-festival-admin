@@ -15,6 +15,7 @@ export default ({ env }) => ({
         large: 1000,
         medium: 750,
         small: 500,
+        xs: 256,
         thumbnail: 128,
 
       },
