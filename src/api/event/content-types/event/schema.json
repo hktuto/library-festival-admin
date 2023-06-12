@@ -13,10 +13,10 @@
   "pluginOptions": {},
   "attributes": {
     "titleEN": {
-      "type": "string"
+      "type": "text"
     },
     "titleHK": {
-      "type": "string"
+      "type": "text"
     },
     "photos": {
       "type": "media",
@@ -36,22 +36,22 @@
       "type": "richtext"
     },
     "hostEN": {
-      "type": "string"
+      "type": "text"
     },
     "hostHK": {
-      "type": "string"
+      "type": "text"
     },
     "targetEN": {
-      "type": "string"
+      "type": "text"
     },
     "targetHK": {
-      "type": "string"
+      "type": "text"
     },
     "quotaEN": {
-      "type": "string"
+      "type": "text"
     },
     "quotaHK": {
-      "type": "string"
+      "type": "text"
     },
     "programs": {
       "displayName": "programs",
@@ -69,6 +69,10 @@
     },
     "remarkHK": {
       "type": "string"
+    },
+    "order": {
+      "type": "integer",
+      "unique": true
     }
   }
 }

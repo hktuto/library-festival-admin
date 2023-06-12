@@ -26,6 +26,13 @@
       "type": "uid",
       "targetField": "nameEN",
       "required": true
+    },
+    "feature": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
