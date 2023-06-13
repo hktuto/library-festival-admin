@@ -59,6 +59,12 @@
     },
     "quotaHK": {
       "type": "text"
+    },
+    "nameEN": {
+      "type": "text"
+    },
+    "nameHK": {
+      "type": "text"
     }
   }
 }
