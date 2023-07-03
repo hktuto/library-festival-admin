@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_resource_resource_items",
+  "info": {
+    "displayName": "resourceItem"
+  },
+  "options": {},
+  "attributes": {
+    "titleEN": {
+      "type": "text"
+    },
+    "titleHK": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
