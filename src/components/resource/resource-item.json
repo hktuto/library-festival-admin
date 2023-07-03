@@ -1,7 +1,8 @@
 {
   "collectionName": "components_resource_resource_items",
   "info": {
-    "displayName": "resourceItem"
+    "displayName": "resourceItem",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -13,6 +14,16 @@
     },
     "url": {
       "type": "string"
+    },
+    "file": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
