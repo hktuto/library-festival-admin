@@ -73,6 +73,9 @@
     "order": {
       "type": "integer",
       "unique": true
+    },
+    "videoUrl": {
+      "type": "string"
     }
   }
 }
