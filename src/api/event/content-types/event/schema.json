@@ -65,17 +65,17 @@
       "target": "api::catergory.catergory"
     },
     "remarkEN": {
-      "type": "string"
+      "type": "text"
     },
     "remarkHK": {
-      "type": "string"
+      "type": "text"
     },
     "order": {
       "type": "integer",
       "unique": true
     },
     "videoUrl": {
-      "type": "string"
+      "type": "text"
     }
   }
 }
