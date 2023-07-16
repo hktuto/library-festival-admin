@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "popups",
+  "info": {
+    "singularName": "popup",
+    "pluralName": "popups",
+    "displayName": "popup"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titleEN": {
+      "type": "text"
+    },
+    "titleHK": {
+      "type": "text"
+    },
+    "contentEN": {
+      "type": "text"
+    },
+    "contentHK": {
+      "type": "text"
+    }
+  }
+}
