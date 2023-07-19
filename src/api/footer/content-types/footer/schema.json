@@ -4,7 +4,8 @@
   "info": {
     "singularName": "footer",
     "pluralName": "footers",
-    "displayName": "footer"
+    "displayName": "footer",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -12,10 +13,10 @@
   "pluginOptions": {},
   "attributes": {
     "remarkEN": {
-      "type": "string"
+      "type": "text"
     },
     "remarkHK": {
-      "type": "string"
+      "type": "text"
     }
   }
 }
