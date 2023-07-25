@@ -28,11 +28,16 @@
       "required": true
     },
     "feature": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "order": {
+      "unique": false,
+      "type": "integer"
     }
   }
 }
