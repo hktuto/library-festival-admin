@@ -76,6 +76,11 @@
     },
     "videoUrl": {
       "type": "text"
+    },
+    "slides": {
+      "type": "component",
+      "repeatable": true,
+      "component": "programs.slides"
     }
   }
 }
