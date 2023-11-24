@@ -27,14 +27,21 @@
       "type": "string"
     },
     "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "url_CN": {
+      "type": "string"
+    },
+    "url_HK": {
+      "type": "string"
     }
   }
 }
